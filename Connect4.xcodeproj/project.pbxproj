@@ -9,25 +9,51 @@
 /* Begin PBXBuildFile section */
 		659C04D12AC6D4C0000865D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659C04D02AC6D4C0000865D7 /* AppDelegate.swift */; };
 		659C04D32AC6D4C0000865D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659C04D22AC6D4C0000865D7 /* SceneDelegate.swift */; };
-		659C04D52AC6D4C0000865D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659C04D42AC6D4C0000865D7 /* ViewController.swift */; };
 		659C04D82AC6D4C0000865D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659C04D62AC6D4C0000865D7 /* Main.storyboard */; };
-		659C04DB2AC6D4C0000865D7 /* Connect4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 659C04D92AC6D4C0000865D7 /* Connect4.xcdatamodeld */; };
 		659C04DD2AC6D4C1000865D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659C04DC2AC6D4C1000865D7 /* Assets.xcassets */; };
 		659C04E02AC6D4C1000865D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659C04DE2AC6D4C1000865D7 /* LaunchScreen.storyboard */; };
 		65BE83CD2AC70A1F004AA520 /* Alpha0C4 in Frameworks */ = {isa = PBXBuildFile; productRef = 65BE83CC2AC70A1F004AA520 /* Alpha0C4 */; };
+		BC1517FC2B1FE777009CE196 /* DiscView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1517FB2B1FE777009CE196 /* DiscView.swift */; };
+		BC1517FE2B1FE79F009CE196 /* DiscColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1517FD2B1FE79F009CE196 /* DiscColumnView.swift */; };
+		BC1518002B20DCDF009CE196 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1517FF2B20DCDF009CE196 /* GameViewController.swift */; };
+		BC1518152B20E75B009CE196 /* CoreDataDisc+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1518112B20E75B009CE196 /* CoreDataDisc+CoreDataClass.swift */; };
+		BC1518162B20E75B009CE196 /* CoreDataSession+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1518122B20E75B009CE196 /* CoreDataSession+CoreDataClass.swift */; };
+		BC1518172B20E75B009CE196 /* Connect4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC1518132B20E75B009CE196 /* Connect4.xcdatamodeld */; };
+		BC15181A2B211A17009CE196 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1518192B211A17009CE196 /* Color.swift */; };
+		BC15181C2B211AE3009CE196 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC15181B2B211AE3009CE196 /* Alert.swift */; };
+		BC1518272B214F80009CE196 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC1518262B214F80009CE196 /* win.mp3 */; };
+		BC1518292B215013009CE196 /* fail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC1518282B215013009CE196 /* fail.mp3 */; };
+		BC15182B2B21507B009CE196 /* fall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC15182A2B21507B009CE196 /* fall.mp3 */; };
+		BC15182D2B221D5C009CE196 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC15182C2B221D5C009CE196 /* TableViewController.swift */; };
+		BC1518312B22221F009CE196 /* HistoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1518302B22221F009CE196 /* HistoryItemView.swift */; };
+		BC1518352B227206009CE196 /* ReplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1518342B227206009CE196 /* ReplayViewController.swift */; };
+		BC1518372B2286B0009CE196 /* drop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC1518362B2286B0009CE196 /* drop.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		659C04CD2AC6D4C0000865D7 /* Connect4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connect4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		659C04D02AC6D4C0000865D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		659C04D22AC6D4C0000865D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		659C04D42AC6D4C0000865D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		659C04D72AC6D4C0000865D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		659C04DA2AC6D4C0000865D7 /* Connect4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Connect4.xcdatamodel; sourceTree = "<group>"; };
 		659C04DC2AC6D4C1000865D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		659C04DF2AC6D4C1000865D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		659C04E12AC6D4C1000865D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		659C04E72AC6D762000865D7 /* Alpha0C4 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Alpha0C4; sourceTree = "<group>"; };
+		BC1517FB2B1FE777009CE196 /* DiscView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiscView.swift; path = ../../../DiscView.swift; sourceTree = "<group>"; };
+		BC1517FD2B1FE79F009CE196 /* DiscColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscColumnView.swift; sourceTree = "<group>"; };
+		BC1517FF2B20DCDF009CE196 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BC1518112B20E75B009CE196 /* CoreDataDisc+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreDataDisc+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BC1518122B20E75B009CE196 /* CoreDataSession+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreDataSession+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BC1518142B20E75B009CE196 /* Connect4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Connect4.xcdatamodel; sourceTree = "<group>"; };
+		BC1518192B211A17009CE196 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		BC15181B2B211AE3009CE196 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		BC1518262B214F80009CE196 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		BC1518282B215013009CE196 /* fail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fail.mp3; sourceTree = "<group>"; };
+		BC15182A2B21507B009CE196 /* fall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fall.mp3; sourceTree = "<group>"; };
+		BC15182C2B221D5C009CE196 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BC1518302B22221F009CE196 /* HistoryItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryItemView.swift; sourceTree = "<group>"; };
+		BC1518342B227206009CE196 /* ReplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayViewController.swift; sourceTree = "<group>"; };
+		BC1518362B2286B0009CE196 /* drop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drop.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,14 +89,17 @@
 		659C04CF2AC6D4C0000865D7 /* Connect4 */ = {
 			isa = PBXGroup;
 			children = (
+				BC1518252B214F67009CE196 /* VoiceData */,
+				BC1518182B211A06009CE196 /* Utils */,
+				BC1517FA2B1FE5AE009CE196 /* Views */,
+				BC1517F82B1FE595009CE196 /* Controllers */,
 				659C04D02AC6D4C0000865D7 /* AppDelegate.swift */,
 				659C04D22AC6D4C0000865D7 /* SceneDelegate.swift */,
-				659C04D42AC6D4C0000865D7 /* ViewController.swift */,
 				659C04D62AC6D4C0000865D7 /* Main.storyboard */,
 				659C04DC2AC6D4C1000865D7 /* Assets.xcassets */,
 				659C04DE2AC6D4C1000865D7 /* LaunchScreen.storyboard */,
 				659C04E12AC6D4C1000865D7 /* Info.plist */,
-				659C04D92AC6D4C0000865D7 /* Connect4.xcdatamodeld */,
+				BC1518102B20E75B009CE196 /* CoreData */,
 			);
 			path = Connect4;
 			sourceTree = "<group>";
@@ -80,6 +109,56 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC1517F82B1FE595009CE196 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC1517FF2B20DCDF009CE196 /* GameViewController.swift */,
+				BC15182C2B221D5C009CE196 /* TableViewController.swift */,
+				BC1518342B227206009CE196 /* ReplayViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BC1517FA2B1FE5AE009CE196 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC1517FB2B1FE777009CE196 /* DiscView.swift */,
+				BC1517FD2B1FE79F009CE196 /* DiscColumnView.swift */,
+				BC1518302B22221F009CE196 /* HistoryItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC1518102B20E75B009CE196 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				BC1518112B20E75B009CE196 /* CoreDataDisc+CoreDataClass.swift */,
+				BC1518122B20E75B009CE196 /* CoreDataSession+CoreDataClass.swift */,
+				BC1518132B20E75B009CE196 /* Connect4.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		BC1518182B211A06009CE196 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BC1518192B211A17009CE196 /* Color.swift */,
+				BC15181B2B211AE3009CE196 /* Alert.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BC1518252B214F67009CE196 /* VoiceData */ = {
+			isa = PBXGroup;
+			children = (
+				BC15182A2B21507B009CE196 /* fall.mp3 */,
+				BC1518362B2286B0009CE196 /* drop.mp3 */,
+				BC1518282B215013009CE196 /* fail.mp3 */,
+				BC1518262B214F80009CE196 /* win.mp3 */,
+			);
+			path = VoiceData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +222,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC15182B2B21507B009CE196 /* fall.mp3 in Resources */,
 				659C04E02AC6D4C1000865D7 /* LaunchScreen.storyboard in Resources */,
 				659C04DD2AC6D4C1000865D7 /* Assets.xcassets in Resources */,
+				BC1518292B215013009CE196 /* fail.mp3 in Resources */,
 				659C04D82AC6D4C0000865D7 /* Main.storyboard in Resources */,
+				BC1518272B214F80009CE196 /* win.mp3 in Resources */,
+				BC1518372B2286B0009CE196 /* drop.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,10 +239,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				659C04D52AC6D4C0000865D7 /* ViewController.swift in Sources */,
+				BC1518002B20DCDF009CE196 /* GameViewController.swift in Sources */,
+				BC1518172B20E75B009CE196 /* Connect4.xcdatamodeld in Sources */,
+				BC15181A2B211A17009CE196 /* Color.swift in Sources */,
+				BC1518152B20E75B009CE196 /* CoreDataDisc+CoreDataClass.swift in Sources */,
 				659C04D12AC6D4C0000865D7 /* AppDelegate.swift in Sources */,
+				BC1518352B227206009CE196 /* ReplayViewController.swift in Sources */,
+				BC15181C2B211AE3009CE196 /* Alert.swift in Sources */,
+				BC1518312B22221F009CE196 /* HistoryItemView.swift in Sources */,
+				BC15182D2B221D5C009CE196 /* TableViewController.swift in Sources */,
+				BC1518162B20E75B009CE196 /* CoreDataSession+CoreDataClass.swift in Sources */,
 				659C04D32AC6D4C0000865D7 /* SceneDelegate.swift in Sources */,
-				659C04DB2AC6D4C0000865D7 /* Connect4.xcdatamodeld in Sources */,
+				BC1517FC2B1FE777009CE196 /* DiscView.swift in Sources */,
+				BC1517FE2B1FE79F009CE196 /* DiscColumnView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,12 +483,12 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		659C04D92AC6D4C0000865D7 /* Connect4.xcdatamodeld */ = {
+		BC1518132B20E75B009CE196 /* Connect4.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				659C04DA2AC6D4C0000865D7 /* Connect4.xcdatamodel */,
+				BC1518142B20E75B009CE196 /* Connect4.xcdatamodel */,
 			);
-			currentVersion = 659C04DA2AC6D4C0000865D7 /* Connect4.xcdatamodel */;
+			currentVersion = BC1518142B20E75B009CE196 /* Connect4.xcdatamodel */;
 			path = Connect4.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
